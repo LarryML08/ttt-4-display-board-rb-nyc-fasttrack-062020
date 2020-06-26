@@ -2,7 +2,7 @@
 # out the current state.
 puts board = [" "," "," "," "," "," "," "," "," "]
 
-def display_board
+def display_board(board)
   puts row = ["   " "|" "   " "|" "   "]
   puts separator = "-----------"
   puts row
